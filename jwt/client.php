@@ -4,7 +4,7 @@ echo 'hello JWT';
 
 // Recibe la información del login page y la envía al servidor para validar la autenticidad
 // de las credenciales y crear un JWT que será almacenado en cookies
-function login(string $username, string $password): string {
+function login(string $username, string $password): void {
     $url = SERVER_URL . '/login';
 
     $payload = json_encode(['username' => $username,
