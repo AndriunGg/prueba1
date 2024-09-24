@@ -27,7 +27,7 @@ function login(string $username, string $password): string {
         }
         $res_content = json_decode($res, true);
         if (isset($res_content['token'])) {
-            setcookie('token', json_encode($res_content['token']), time() + 3600);
+            setcookie('token', json_decode($res_content['token']), time() + 3600);
         } else {
             throw new Exception('response content ' . $res_content . ' failed to get TOKEN field');
         }
