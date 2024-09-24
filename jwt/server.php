@@ -7,6 +7,7 @@ use Firebase\JWT\ExpiredException;
 require_once '../config.php';
 echo 'hello JWT';
 
+//FLUJO_JWT.2
 //solicitar un JWT
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_SERVER['REQUEST_URI'] === '/login') {
   $payload = '' //TODO: obtener informacion de login
@@ -32,6 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_SERVER['REQUEST_URI'] === '/login
   }
 }
 
+//FLUJO_JWT.4.1
 //valida su el JWT corresponde al SECRET_JWT
 function authenticateJWT($token): void {
   try {
@@ -47,6 +49,7 @@ function authenticateJWT($token): void {
   }
 };
 
+//FLUJO_JWT.4
 //restringir el acceso en caso de no tener un JWT
 if ($_SERVER['REQUEST_METHOD'] === 'GET' && $_SERVER['REQUEST_URI'] !== '/login') {
   $headers = getallheaders();

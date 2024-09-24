@@ -2,6 +2,8 @@
 require_once '../config.php';
 echo 'hello JWT';
 
+
+//FLUJO_JWT.1
 // Recibe la información del login page y la envía al servidor para validar la autenticidad
 // de las credenciales y crear un JWT que será almacenado en cookies
 function login(string $username, string $password): string {
@@ -36,6 +38,7 @@ function login(string $username, string $password): string {
     }
 }
 
+//FLUJO_JWT.3
 // Enviar JWT almacenado en cookies al servidor para validar el token y obtener la información encriptada
 function getSesion(string $endpoint): void {
     $url = SERVER_URL . $endpoint;
