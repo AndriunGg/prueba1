@@ -13,11 +13,11 @@
 <body>
      <form action="" method="post">
     
-    <input type="text" name="user" placeholder="Usuario" required><br>
+    <input type="text" name="user" placeholder="Usuario" required>
 
     
-    <input type="password" name="password" placeholder="Contraseña" required><br>
-    <input type="password" name="password" placeholder="Validar Contraseña" required><br><br>
+    <input type="password" name="password" placeholder="Contraseña" required>
+    <input type="password" name="password" placeholder="Validar Contraseña" required>
   
     <button type="submit">Crear usuario</button>  <br>
     

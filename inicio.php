@@ -13,10 +13,10 @@
 
      <form action="" method="post">
     
-    <input type="text" name="user" placeholder="Usuario" required><br>
+    <input type="text" name="user" placeholder="Usuario" required>
 
     
-    <input type="password" name="password" placeholder="Contraseña" required><br><br>
+    <input type="password" name="password" placeholder="Contraseña" required>
 
   
     <button type="submit">Iniciar sesion</button>  <br>

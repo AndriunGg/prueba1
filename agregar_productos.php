@@ -14,16 +14,16 @@
 
      <form action="" method="post">
      <label for="nombre">Nombre del Producto:</label>
-    <input type="text" name="nombre" required><br>
+    <input type="text" name="nombre" required>
 
     <label for="precio">Precio:</label>
-    <input type="number" step="0.01" name="precio" required><br>
+    <input type="number" step="0.01" name="precio" required>
 
     <label for="imagen">Imagen (URL):</label>
-    <input type="text" name="imagen" required><br>
+    <input type="text" name="imagen" required>
 
     <label for="categoria">Categoría:</label>
-    <input type="text" name="categoria" required><br>
+    <input type="text" name="categoria" required>
 
     <button type="submit">Crear Producto</button>
 
