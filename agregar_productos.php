@@ -1,4 +1,4 @@
-<?php echo '<p> hola mundo </p>' ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,8 +6,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style\style.css">
 </head>
-<body>
+<body>  
+    <h1>Agregar productos</h1>
+
+
      <form action="" method="post">
      <label for="nombre">Nombre del Producto:</label>
     <input type="text" name="nombre" required><br>

@@ -4,26 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>signup</title>
+
+
     <link rel="stylesheet" href="style\style.css">
 </head>
+<h1>Crear usuario</h1>
 <body>
-    <h1>Login</h1>
-
-
      <form action="" method="post">
     
     <input type="text" name="user" placeholder="Usuario" required><br>
 
     
-    <input type="password" name="password" placeholder="Contraseña" required><br><br>
-
+    <input type="password" name="password" placeholder="Contraseña" required><br>
+    <input type="password" name="password" placeholder="Validar Contraseña" required><br><br>
   
-    <button type="submit">Iniciar sesion</button>  <br>
-    <br>
-    O<br>
-    <a href="signup.php"> crear usuario</a>
-
+    <button type="submit">Crear usuario</button>  <br>
+    
 
 
      </form>
